@@ -78,11 +78,11 @@ function register(){
     }
     else{
         // for user pin
-        if(password.length<4){
+        if(password.length<6){
             console.log('pin')
             sub=-1;
             document.getElementById('warnpin').style.display='block';
-            document.getElementById('warnpin').innerHTML='Pin must grater than equal to 4 numbers';
+            document.getElementById('warnpin').innerHTML='Pin must grater than equal to 6 numbers';
             document.getElementById('field5').style.border='1px solid #F67171'
             document.getElementById('field5').style.boxShadow='10px'
            
