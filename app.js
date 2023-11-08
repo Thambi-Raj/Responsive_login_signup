@@ -51,5 +51,3 @@ app.post('/login',async (req,res)=>{
         return res.send('INvalid Username or password');
     }
 })
-app.use('/.netlify/functions/api')
-module.exports.handler= serverless(app)
